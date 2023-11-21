@@ -1,0 +1,107 @@
+/*geral*/
+body {
+    margin: 0;
+    border: 0;
+    padding: 5px;
+}
+
+/*conteiner pai*/
+#conteiner {
+    margin: 0 auto;
+    width: 90%;
+    height: 98vh;
+    border: 1px solid #0080ff;
+    border-radius: 5%;
+}
+
+#conteiner> h1 {
+    text-align: center;
+}
+ 
+
+
+/*div saida*/
+#divSaida {
+    text-align: center;
+    margin:  0 auto;
+    width: 300px;
+    border: 1px solid #000;
+    border-radius: 20px;
+}
+
+#divSaida> h2 {
+    font-size: 30px;
+}
+
+#divSaida> p {
+    font-size: 30px;
+}
+
+/*div letras*/
+#divLetras {
+    margin:  0 auto;
+    text-align: center;
+    margin-top: 50px;
+    width: 300px;
+}
+
+#divLetras > p {
+    font-size: 20px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    height: 20px;
+}
+
+/*div jogadas*/
+#divJogadas {
+    text-align: center;
+    margin:  0 auto;
+    margin-top: 30px;
+    width: 300px;
+}
+
+#divJogadas> input {
+    display: block;
+    margin:  0 auto;
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#divJogadas> button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+
+.inputT {
+    border: 1px solid #000;
+}
+
+/*div novo jogo*/
+#novoJogo {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#novoJogo > a{
+    background-color: #0080ff;
+    padding: 20px;
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+@media(max-width: 500px) {
+    #conteiner {
+        margin: 0 auto;
+        width: 90%;
+        height: 100vh;
+        border: 1px solid #0080ff;
+        border-radius: 5%;
+    }
+}
